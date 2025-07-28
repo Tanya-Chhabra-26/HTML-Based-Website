@@ -1,12 +1,23 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   width: 100%;
+}
+
+iframe[src*="noupe.ai"] {
+  border-radius: 20px !important;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  width: 360px !important;
+  height: 500px !important;
+  bottom: 30px !important;
+  right: 20px !important;
+  z-index: 9999 !important;
 }
 
 section {
@@ -15,24 +26,26 @@ section {
   padding: 40px 60px;
   background-size: cover;
 }
+
 .container {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 16px;
 }
-  .container2{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 40px;
 
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 16px;
-    box-sizing: border-box;
-  }
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
 
 .navbar {
   background-color: white;
@@ -252,7 +265,7 @@ section h2 {
 .client-content {
   font-size: 12px;
   color: #565756;
-  
+
 }
 
 .clients-logos {
@@ -403,6 +416,7 @@ section h2 {
   text-align: center;
 
 }
+
 .stats-header {
   text-align: center;
   margin-bottom: 40px;
@@ -518,7 +532,7 @@ section h2 {
   flex: 1;
   min-width: 300px;
   line-height: 40px;
-  margin-top:25px
+  margin-top: 25px
 }
 
 .text-part h1 {
@@ -678,11 +692,11 @@ section h2 {
   box-sizing: border-box;
   align-items: flex-start;
 }
- 
- 
 
 
- 
+
+
+
 
 .footer-brand {
   flex: 1 1 250px;
@@ -699,6 +713,7 @@ section h2 {
   color: #ccc;
   margin: 20px 0;
 }
+
 .footer-brand,
 .footer-links,
 .footer-subscribe {
@@ -761,36 +776,41 @@ section h2 {
 .hero-content h1 {
   font-size: 15px;
 }
-.blog-section{
+
+.blog-section {
   padding: 60px 10%;
   text-align: center;
   background-color: white;
 }
-.blog-cards-box{
+
+.blog-cards-box {
   display: flex;
   gap: 30px;
 }
-.blog-subtext{
+
+.blog-subtext {
   max-width: 600px;
   margin: 0 auto 40px;
   color: #565756;
   font-size: 14px;
 }
-.blog-cards{
+
+.blog-cards {
   width: 100%;
   height: 450px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
-.blog-text{
+
+.blog-text {
   max-width: 200px;
-  margin: 0 auto 40px;  
+  margin: 0 auto 40px;
   font-size: 16px;
   color: #565756;
   font-weight: 500;
   position: absolute;
 }
 
-.blog-cards img{
+.blog-cards img {
   height: 300px;
   width: 300px;
   border-top-left-radius: 20px;
@@ -806,15 +826,18 @@ section h2 {
     align-items: center;
     gap: 16px;
   }
+
   .container {
     padding: 0 12px;
     max-width: 100%;
   }
-  .card-content{
+
+  .card-content {
     justify-content: center;
     align-items: center;
     text-align: center;
   }
+
   .main {
     flex-direction: column;
     align-items: center;
@@ -834,13 +857,15 @@ section h2 {
   .logo-text {
     text-align: center;
   }
-  .hero{
+
+  .hero {
     height: 300px;
   }
-  .dots{
+
+  .dots {
     margin-top: 250px;
   }
-            
+
   .hero-content h1 {
     font-size: 35px;
   }
@@ -908,10 +933,12 @@ section h2 {
     font-size: 16px;
     text-align: center;
   }
-  .container2{
+
+  .container2 {
     display: grid;
     justify-content: center;
   }
+
   .numbers-part {
     grid-template-columns: 1fr;
     gap: 30px;
@@ -958,9 +985,11 @@ section h2 {
     font-size: 14px;
     padding: 12px 24px;
   }
-  .testimonial-section{
+
+  .testimonial-section {
     display: grid;
   }
+
   .testimonial-image {
     padding: 10px 0;
     text-align: center;
@@ -973,6 +1002,7 @@ section h2 {
     height: 200px;
 
   }
+
   .testimonial-name {
     font-size: 16px;
   }
@@ -998,17 +1028,19 @@ section h2 {
     text-align: center;
     font-size: 15px;
   }
+
   .footer-container {
     flex-direction: column;
     align-items: flex-start;
 
   }
 
-  .footer-cta{
+  .footer-cta {
     display: grid;
     justify-content: space-between;
     gap: 20px;
   }
+
   .footer-brand,
   .footer-links,
   .footer-subscribe {
@@ -1027,6 +1059,7 @@ section h2 {
   .social-icons i {
     margin-right: 10px;
   }
+
   .blog-section {
     padding: 40px 5%;
   }
@@ -1046,29 +1079,33 @@ section h2 {
     height: auto;
     max-width: 100%;
   }
-  .cards{
+
+  .cards {
     justify-content: center;
     text-align: center;
     align-items: center;
   }
+
   .blog-subtext,
   .blog-text {
     max-width: 100%;
     font-size: 14px;
     margin: 0 auto 20px;
   }
-  
+
 }
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  
+
   .nav {
     flex-direction: row;
     justify-content: space-between;
 
   }
+
   .container {
-    padding: 0 20px; 
-    max-width: 100%;  
+    padding: 0 20px;
+    max-width: 100%;
   }
 
   .main {
@@ -1092,8 +1129,8 @@ section h2 {
   .logo-text {
     text-align: left;
   }
-  
-  
+
+
 
   .hero-content h1 {
     font-size: 40px;
@@ -1107,7 +1144,7 @@ section h2 {
     margin-top: 0;
   }
 
-  
+
   .clients-logos {
     gap: 30px;
     justify-content: center;
@@ -1122,7 +1159,7 @@ section h2 {
     font-size: 28px;
   }
 
- 
+
   .community {
     padding: 80px 8%;
   }
@@ -1137,7 +1174,7 @@ section h2 {
     margin-bottom: 30px;
   }
 
-  
+
   .blog-feature {
     flex-direction: row;
     align-items: center;
@@ -1151,7 +1188,7 @@ section h2 {
   .stats-section {
     flex-direction: row;
     justify-content: space-between;
-   padding: 20px 20px;
+    padding: 20px 20px;
   }
 
   .text-part h1 {
@@ -1200,6 +1237,7 @@ section h2 {
     width: 400px;
     height: 400px;
   }
+
   .testimonial-name {
     font-size: 18px;
   }
@@ -1232,7 +1270,7 @@ section h2 {
   }
 
   .blog-cards img {
-    width:200px;
+    width: 200px;
     height: 200px;
   }
 
@@ -1275,7 +1313,8 @@ section h2 {
   height: 300px;
   position: relative;
 }
-.container1{
+
+.container1 {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
