@@ -10,15 +10,19 @@ body {
   width: 100%;
 }
 
+/* Chatbot widget fixed in bottom-right corner */
 iframe[src*="noupe.ai"] {
-  border-radius: 20px !important;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-  width: 360px !important;
-  height: 500px !important;
-  bottom: 30px !important;
+  position: fixed !important;
+  bottom: 20px !important;
   right: 20px !important;
+  width: 380px !important;
+  height: 520px !important;
+  border: none !important;
+  border-radius: 18px !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15) !important;
   z-index: 9999 !important;
 }
+
 
 section {
   width: 100%;
