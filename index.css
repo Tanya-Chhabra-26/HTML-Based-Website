@@ -10,19 +10,19 @@ body {
   width: 100%;
 }
 
-/* Chatbot widget fixed in bottom-right corner */
-iframe[src*="noupe.ai"] {
-  position: fixed !important;
-  bottom: 20px !important;
-  right: 20px !important;
-  width: 380px !important;
-  height: 520px !important;
-  border: none !important;
-  border-radius: 18px !important;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15) !important;
-  z-index: 9999 !important;
+iframe[src*="noupe"] {
+  bottom: 80px !important;
+  /* Adjust vertical position */
+  right: 30px !important;
+  /* Adjust horizontal position */
 }
 
+/* Optional: Add spacing for container if required */
+.noupe-container,
+.noupe-chat-bubble {
+  margin: 20px !important;
+  padding: 10px !important;
+}
 
 section {
   width: 100%;
