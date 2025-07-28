@@ -10,19 +10,6 @@ body {
   width: 100%;
 }
 
-iframe[src*="noupe"] {
-  bottom: 80px !important;
-  /* Adjust vertical position */
-  right: 30px !important;
-  /* Adjust horizontal position */
-}
-
-/* Optional: Add spacing for container if required */
-.noupe-container,
-.noupe-chat-bubble {
-  margin: 20px !important;
-  padding: 10px !important;
-}
 
 section {
   width: 100%;
